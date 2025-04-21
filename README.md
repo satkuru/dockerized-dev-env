@@ -8,3 +8,9 @@ To remove the container:
 docker rm fastapi-continer
 To remove the built docker image:
 docker rmi fastapi-image
+To use docker-compose:
+docker compose up --build -d
+To stop docker compose services:
+docker compose stop
+To remove docker compose service continers:
+docker compose down
